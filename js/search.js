@@ -214,7 +214,7 @@ products.forEach((product) => {
             
             <div class="origin-menu">
                 <div>
-                 <p><h5 class="name">${product.title}</h5><i class="origin-star fa-solid fa-star"></i> <span class="reting1">${product.rating.rate}</span>/<span class="reting2">${product.rating.count}</span></p>
+                 <p><i class="origin-star fa-solid fa-star"></i> <span class="reting1">${product.rating.rate}</span>/<span class="reting2">${product.rating.count}</span></p>
                 </div>
                 <div class="prise">${product.price}$</div>
             </div>
